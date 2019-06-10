@@ -1,0 +1,71 @@
+.sidenav {
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 55px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+.sidenav p {
+  font-family: 'CG', sans-serif;
+  margin: auto;
+  padding: 8px;
+}
+
+@supports (font-variation-settings: normal) {
+  .sidenav p {
+    font-family: 'Jabin VF', sans-serif;
+  }
+}
+
+.light {
+  font-weight: 300;
+}
+
+@supports (font-variation-settings: normal) {
+  .light {
+    font-variation-settings: "wght" 40;
+    font-weight: 40;
+  }
+}
+
+.regular {
+  font-weight: 400;
+}
+
+@supports (font-variation-settings: normal) {
+  .regular {
+    font-variation-settings: "wght" 70;
+    font-weight: 70;
+  }
+}
+
+.medium {
+  font-weight: 500;
+}
+
+@supports (font-variation-settings: normal) {
+  .medium {
+    font-variation-settings: "wght" 100;
+    font-weight: 100;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+@supports (font-variation-settings: normal) {
+  .bold {
+    font-variation-settings: "wght" 120;
+    font-weight: 120;
+  }
+}

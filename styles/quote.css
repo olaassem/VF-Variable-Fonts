@@ -1,0 +1,47 @@
+.quote-content {
+  position: relative;
+  padding-top: 40px;
+}
+
+.quote {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 80px 32px;
+  padding-right: 30%;
+}
+
+@supports (font-variation-settings: normal) {
+  .quote {
+    font-variation-settings: "wght" 700, "ital" 1;
+    font-weight: 700;
+  }
+}
+
+.q-1,
+.q-2 {
+  position: absolute;
+  font-family: 'CG', sans-serif;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 288px;
+  font-weight: 700;
+}
+
+@supports (font-variation-settings: normal) {
+  .q-1,
+  .q-2 {
+    font-family: 'Jabin VF', sans-serif;
+    font-variation-settings: "wght" 120;
+  }
+}
+
+.q-1 {
+  left: 130px;
+  top: 20px;
+}
+
+.q-2 {
+  left: 400px;
+  top: 200px;
+}

@@ -1,0 +1,84 @@
+
+/* variable fonts */
+@font-face {
+  font-display: fallback;
+  font-family: 'FF Meta VF';
+  font-style: italic;
+  font-weight: 100 900;
+  src: url('https://variablefonts.monotype.com/MetaVariableDemo-Set.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Jabin VF';
+  font-weight: 40 120;
+  src: url('../fonts/Jabin.woff2') format('woff2-variations'), /* will be the standard and works in Safari now */
+    url('../fonts/Jabin.woff2') format('woff2'),
+    url('../fonts/Jabin.woff') format('woff');
+}
+
+/* fallback google fonts */
+@font-face {
+  font-family: 'CG';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/CormorantGaramond-Light.woff2') format('woff2'),
+    url('../fonts/CormorantGaramond-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CG';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/CormorantGaramond-Regular.woff2') format('woff2'),
+      url('../fonts/CormorantGaramond-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CG';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/CormorantGaramond-Medium.woff2') format('woff2'),
+    url('../fonts/CormorantGaramond-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CG';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/CormorantGaramond-Bold.woff2') format('woff2-variations'),
+    url('../fonts/CormorantGaramond-Bold.woff2') format('woff2'),
+    url('../fonts/CormorantGaramond-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Lato-Light.woff2') format('woff2'),
+    url('../fonts/Lato-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/Lato-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Lato-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/Lato-Black.woff2') format('woff2'),
+    url('../fonts/Lato-Black.woff') format('woff');
+}

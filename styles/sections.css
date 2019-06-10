@@ -1,0 +1,85 @@
+/* sections */
+
+.lines {
+  position: absolute;
+  top: -50px;
+  left: -70px;
+}
+
+.section-content {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 4px 32px;
+  padding-bottom: 60px;
+}
+
+@supports (font-variation-settings: normal) {
+  .section-content {
+    font-variation-settings: "wght" 300, "ital" 0;
+    font-weight: 300;
+  }
+}
+
+.section-content-bold {
+  font-weight: 900;
+}
+
+@supports (font-variation-settings: normal) {
+  .section-content-bold {
+    font-variation-settings: "wght" 900, "ital" 0;
+    font-weight: 900;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.left {
+  flex-basis: 68%;
+}
+
+.left-single {
+  width: 68%;
+}
+
+.sidebar-content {
+  font-size: 11px;
+  font-weight: 300;
+  margin: ;
+}
+
+@supports (font-variation-settings: normal) {
+  .sidebar-content {
+    font-variation-settings: "wght" 300, "ital" 0;
+    font-weight: 300;
+  }
+}
+
+.right {
+  align-self: flex-end;
+  flex-basis: 22%;
+  position: relative;
+}
+
+.right-filler {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  width: 90%;
+  height: 40px;
+  left: -70px;
+}
+
+
+.arrow {
+  position: relative;
+  left: -120px;
+  top: 30px;
+  width: 100px;
+}
+
+.relative {
+  position: relative;
+}

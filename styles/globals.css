@@ -1,0 +1,28 @@
+
+body {
+  background-color: #E39623;
+  color: #333333;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: 'FF Meta VF', sans-serif;
+  }
+}
+
+header,
+section {
+  padding: 4px;
+  max-width: 65rem;
+  width: 100%;
+}
+
+header {
+  margin: auto;
+}
+
+section {
+  margin: 80px auto;
+}
