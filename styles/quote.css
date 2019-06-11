@@ -1,13 +1,13 @@
 .quote-content {
-  position: relative;
   padding-top: 40px;
+  position: relative;
 }
 
 .quote {
   color: white;
   font-size: 30px;
-  font-weight: 700;
   font-style: italic;
+  font-weight: 700;
   margin: 80px 32px;
   padding-right: 30%;
 }
@@ -21,11 +21,11 @@
 
 .q-1,
 .q-2 {
-  position: absolute;
-  font-family: 'CG', sans-serif;
   color: rgba(255, 255, 255, 0.3);
+  font-family: 'CG', sans-serif;
   font-size: 288px;
   font-weight: 700;
+  position: absolute;
 }
 
 @supports (font-variation-settings: normal) {

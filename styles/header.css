@@ -51,9 +51,6 @@ h3 {
   }
 }
 
-
-
-
 .jabin-bold {
   color: rgba(255, 255, 255, 0.3);
   font-family: 'CG', sans-serif;
@@ -101,10 +98,10 @@ h3 {
 .byline {
   color: white;
   font-size: 20px;
-  text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 1px;
   margin: 4px 32px;
+  text-transform: uppercase;
 }
 
 @supports (font-variation-settings: normal) {
@@ -145,8 +142,8 @@ h3 {
 
 .intro {
   font-size: 18px;
-  font-weight: 500;
   font-style: italic;
+  font-weight: 500;
   margin: 80px 32px;
   padding-right: 30%;
 }
@@ -160,49 +157,20 @@ h3 {
 
 .hdr-filler,
 .byline-filler {
-  position: absolute;
   background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
   position: absolute;
 }
 
 .hdr-filler {
-  width: 64%;
   height: 70%;
   left: -40px;
+  width: 64%;
 }
 
 .byline-filler {
-  width: 45%;
   height: 300%;
   left: -40px;
   top: -10px;
+  width: 45%;
 }
-
-
-
-/*
-screens: {
-  'tyd': {'max': '23.9375em'}, // 399px
-  'ty': '25em', // 400px
-  'xsd': {'max': '37.4375em'}, // 599px
-  'xs': '37.5em', // 600px
-  'smd': {'max': '47.9375em'}, // 767px
-  'sm': '48em', // 768px
-  'navd': {'max': '53.9375em'}, // 863px
-  'nav': '54em', // 864px
-  // 'mdd': {'max': '59.9375em'}, // 959px
-  'md': '60em', // 960px
-  'lgd': {'max': '63.9375em'}, // 1023px
-  'lg': '64em', // 1024px
-  // 'xld': {'max': '79.9375em'}, // 1279px
-  // 'xl': '80em', // 1280px
-}, */
-
-
-/* @media screen and (min-width: 460px) and (max-width: 699px) {
-
-}
-
-@media screen and (min-width: 700px) {
-
-} */

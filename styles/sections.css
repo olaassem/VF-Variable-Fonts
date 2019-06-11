@@ -1,15 +1,13 @@
-/* sections */
-
 .lines {
+  left: -70px;
   position: absolute;
   top: -50px;
-  left: -70px;
 }
 
 .section-content {
   font-size: 16px;
   font-weight: 300;
-  margin: 4px 32px;
+  margin: 4px 100px 4px 32px;
   padding-bottom: 60px;
 }
 
@@ -33,22 +31,15 @@
 
 .flex {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
-}
-
-.left {
-  flex-basis: 68%;
-}
-
-.left-single {
-  width: 68%;
 }
 
 .sidebar-content {
   font-size: 11px;
   font-weight: 300;
-  margin: ;
+  margin: 4px 100px 4px 32px;
 }
 
 @supports (font-variation-settings: normal) {
@@ -59,27 +50,76 @@
 }
 
 .right {
-  align-self: flex-end;
-  flex-basis: 22%;
   position: relative;
+}
+
+.right h3 {
+  margin-left: 32px;
 }
 
 .right-filler {
   background-color: rgba(255, 255, 255, 0.1);
-  position: absolute;
-  width: 90%;
   height: 40px;
   left: -70px;
+  position: absolute;
+  width: 90%;
 }
 
-
 .arrow {
+  left: 20px;
   position: relative;
-  left: -120px;
-  top: 30px;
-  width: 100px;
+  top: -30px;
+  transform: rotate(90deg);
+  width: 80px;
 }
 
 .relative {
   position: relative;
+}
+
+/* Desktop */
+@media screen and (min-width: 1170px) {
+  .flex {
+    flex-direction: row;
+  }
+
+  .left {
+    flex-basis: 68%;
+  }
+
+  .left-single {
+    width: 68%;
+  }
+
+  .sidebar-content {
+    font-size: 11px;
+    font-weight: 300;
+    margin: auto;
+  }
+
+  .right {
+    align-self: flex-end;
+    flex-basis: 22%;
+    position: relative;
+  }
+
+  .right h3 {
+    margin-left: auto;
+  }
+
+  .right-filler {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 40px;
+    left: -70px;
+    position: absolute;
+    width: 90%;
+  }
+
+  .arrow {
+    left: -120px;
+    position: relative;
+    top: 30px;
+    transform: rotate(0deg);
+    width: 100px;
+  }
 }
