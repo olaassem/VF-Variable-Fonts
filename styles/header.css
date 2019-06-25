@@ -8,7 +8,7 @@ h1 {
 
 @supports (font-variation-settings: normal) {
   h1 {
-    font-variation-settings: "wght" 100, "ital" 0;
+    font-variation-settings: "wght" 100;
   }
 }
 
@@ -27,7 +27,7 @@ h3 {
 @supports (font-variation-settings: normal) {
   h2,
   h3 {
-    font-variation-settings: "wght" 900, "ital" 0;
+    font-variation-settings: "wght" 900;
     font-weight: 900;
   }
 }
@@ -63,7 +63,7 @@ h3 {
 @supports (font-variation-settings: normal) {
   .jabin-bold {
     font-family: 'Jabin VF', sans-serif;
-    font-variation-settings: "wght" 700, "ital" 0;
+    font-variation-settings: "wght" 700;
     font-weight: 700;
   }
 }
@@ -106,7 +106,7 @@ h3 {
 
 @supports (font-variation-settings: normal) {
   .byline {
-    font-variation-settings: "wght" 900, "ital" 0;
+    font-variation-settings: "wght" 900;
     font-weight: 900;
   }
 }
